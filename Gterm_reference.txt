@@ -1,0 +1,7 @@
+This is the torque values reference for home position ( 0 radian for all the joints ). This value is obtained by setting up the mtm arm into the home position using the joint_position controller and reading the /mtm/joint_state topic.
+
+
+name: ['right_elbow_pitch_joint', 'right_outer_yaw_joint', 'right_shoulder_pitch_joint', 'right_wrist_pitch_joint', 'right_wrist_platform_joint', 'right_wrist_roll_joint', 'right_wrist_yaw_joint']
+position: [-0.032577817769327666, 5.010344956701829e-07, -0.031129055190097787, 0.00038113087374735954, -8.941446489885152e-07, -1.5720305527028646, 3.6349209420194484e-07]
+velocity: [2.1684772957977828e-08, -6.036201235838148e-07, -3.2062470149313966e-11, -4.7571489815443935e-08, 7.116014996462458e-05, -1.874088123190928e-05, -9.421310400265638e-05]
+effort: [3.257782240190199, -0.0026742991027006724, 3.1129055161644104, -0.038113895204983095, 0.004219637783897667, 100.0, -0.001377744552755189]
